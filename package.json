@@ -1,0 +1,37 @@
+{
+  "name": "mindlang-api-framework",
+  "version": "1.0.0",
+  "description": "Express 없이 MindLang으로 만든 경량 REST API 프레임워크",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "examples:basic": "ts-node examples/01-basic-server.ts",
+    "examples:auth": "ts-node examples/02-jwt-auth.ts",
+    "examples:rest": "ts-node examples/03-rest-api.ts",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "mindlang",
+    "rest-api",
+    "framework",
+    "http",
+    "async",
+    "database",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Claude",
+  "license": "MIT",
+  "dependencies": {
+    "mindlang": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
